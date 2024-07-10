@@ -1,0 +1,45 @@
+#main{
+    border: 5px solid black;
+    height: 440px;
+    width: 575px;
+    margin: auto;
+    margin-top: 150px;
+    background: linear-gradient(90deg,skyblue,violet,pink);
+}
+#h{
+    font-size: 25px;
+}
+#r{
+    font-size: 25px;
+}
+#rules{
+    text-align: justify;
+    margin-left: 100px;
+    justify-content: space-evenly;
+    font-size: larger;
+    
+}
+#n1{
+    margin-left: 175px;
+    border-color: black;
+    font-size: 15px;
+}
+#num{
+    font-size: 25px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-color: black;
+    font-size: medium;
+}
+#b1{
+    width: 75px;
+    
+}#b2{
+    width: 75px;
+}
+
+
+    

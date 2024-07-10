@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indexstyle.css">
+</head>
+<body>
+    <div id="main">
+        <center><h2 id="h">Number Guessing Application</h2></center>
+        <center><h2 id="r">Rules</h2></center>
+        <div id="rules">
+            <ul>
+                <li>Select the number from 1 to 100</li>
+                <li>Click on the <b>check</b> button</li>
+                <li>It will give you a hint to guess the number correctly</li>
+                <li>Repeat the same step until you find the number</li>
+            </ul>
+        </div>
+        <input type="Number" name="num" id="n1" placeholder="Enter the number">
+        <center><h2 id="w">Wait for the result!!!</h2></center>
+        <center><h3 id="num">0</h3></center>
+        <div id="btn">
+            <button type="submit" id="b1" onclick="findnum()">Check</button>
+            <button type="submit" ib="b2" onclick="window.location.reload()">Reset</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+
+    
+</body>
+</html>
